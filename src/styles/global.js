@@ -10,10 +10,21 @@ export default createGlobalStyle`
   body {
     background-color: ${({ theme }) => theme.COLORS.BACKGROUND_800};
     color: ${({ theme }) => theme.COLORS.WHITE};
+
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
   }
+  
+  body, input, button, textarea {
+    font-family: 'Roboto Slab', serif;
+    font-size: 16px;
+    outline: none;
+  }
+
   a {
     text-decoration: none;
   }
+
   button, a {
     cursor: pointer;
     transition: filter 0.2s;
