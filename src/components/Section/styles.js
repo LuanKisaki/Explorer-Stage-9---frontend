@@ -5,7 +5,7 @@ margin: 28px 0;
 width: 100%;
 
 > h2 {
-  border: 1px solid ${({ theme }) => theme.COLORS.BACKGROUND_700};
+  border-bottom: 1px solid ${({ theme }) => theme.COLORS.BACKGROUND_700};
 
   padding-bottom: 16px;
   margin-bottom: 24px;

@@ -20,7 +20,7 @@ export const Brand = styled.div`
   display: flex;
   align-items: center;
   justify-content: center;
-  border: 1px solid ${({ theme }) => theme.COLORS.BACKGROUND_700};
+  border-bottom: 1px solid ${({ theme }) => theme.COLORS.BACKGROUND_700};
   background-color: ${({ theme }) => theme.COLORS.BACKGROUND_900};
 
   > h1 {
@@ -47,7 +47,8 @@ export const Search = styled.div`
 `;
 export const Content = styled.div`
   grid-area: content;
-  background: red;
+  padding: 0 64px;
+  overflow-y: auto;
 
 `;
 export const NewNote = styled.button`
